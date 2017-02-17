@@ -22,12 +22,12 @@ const config = {
     },
     plugins: [
         webpackIsomorphicToolsPlugin.development(),
-        new webpack.optimize.UglifyJsPlugin({
-          	compressor: {
-            	warnings: false,
-          	},
-        }),
-        new webpack.optimize.OccurrenceOrderPlugin(),
+        // new webpack.optimize.UglifyJsPlugin({
+        //   	compressor: {
+        //     	warnings: false,
+        //   	},
+        // }),
+        // new webpack.optimize.OccurrenceOrderPlugin(),
     ]
 }
 

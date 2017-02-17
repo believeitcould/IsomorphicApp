@@ -26,7 +26,7 @@ export default class Main extends Component {
                         切换
                     </span>
                 </div>
-                <div className='content'>
+                <div style={styles.content}>
                     {this.state.title ? <App /> : <Douban />}
                 </div>
 
@@ -58,7 +58,7 @@ const styles = {
         flex: 1, 
     },
     content: {
-        height: document.documentElement.clientHeight - 60,
+        flex: 1,
         display: 'flex'
     }
 }
