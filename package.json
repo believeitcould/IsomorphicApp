@@ -1,0 +1,43 @@
+{
+  "name": "ServerSideRender",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon --watch server/ --exec babel-node server",
+    "build": "babel-node server"
+  },
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "koa": "^2.0.0",
+    "koa-bodyparser": "^2.0.1",
+    "koa-router": "7.0.0",
+    "koa-static": "^1.5.2",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.2",
+    "react-router": "^3.0.2",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0",
+    "superagent": "^3.3.2",
+    "whatwg-fetch": "^2.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-plugin-import": "^1.1.0",
+    "babel-plugin-react-transform": "^2.0.2",
+    "babel-plugin-transform-require-ignore": "0.0.2",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "babel-register": "^6.23.0",
+    "css-loader": "^0.26.1",
+    "koa-webpack-middleware": "^1.0.3",
+    "nodemon": "^1.11.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.2.1",
+    "webpack-isomorphic-tools": "^2.6.6"
+  }
+}
