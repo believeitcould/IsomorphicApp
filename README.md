@@ -2,7 +2,7 @@
 
 react + server-side-render 一个纯妹子图SPA，工作之余，提神醒脑。点击即可切换下一张。适配移动端。
 
-在线预览 http://chuuup.applinzi.com/ooxx/
+在线预览 http://chuuup.applinzi.com/ooxx
 
 
 
