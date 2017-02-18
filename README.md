@@ -2,13 +2,13 @@
 
 react + server-side-render 一个纯妹子图SPA，工作之余，提神醒脑。点击即可切换下一张。适配移动端。
 
-在线预览 http://chuuup.applinzi.com/ooxx#/
+在线预览 http://chuuup.applinzi.com/ooxx/
 
 
 
 ## Screen Shot
 
-![](./screenShot/1.png)![](./screenShot/2.png)
+![](./screenShot/1.jpg)   ![](./screenShot/2.jpg)
 
 
 
@@ -35,34 +35,32 @@ open browser http://localhost:3000/
 
 ## Structure
 
-- client
+common
 
-  - index.js
+├─actions
+│      
+├─components
+│      
+├─containers
+│      
+├─reducers
+│      
+└─routes
 
-- common
+server
 
-  - actions
-  - components
-  - containers
-  - reducers
-  - routes
+│  client.js
+│  controller.js
+│  index.js
+│  isomorphic.js
+│  render.js
+│  rest.js
+│  
+├─controllers
+│      
+└─public
 
-- server
+client
 
-  - controllers
-
-  - public
-
-  - client.js
-
-  - controller.js
-
-  - index.js
-
-  - isomorphic.js
-
-  - render.js
-
-  - rest.js
-
-    ​
+│  index.js
+            
