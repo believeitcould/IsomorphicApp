@@ -3,7 +3,6 @@ import App from '../components/App'
 import { fetchJandan } from '../actions'
 
 const mapStateToProps = (state, ownProps) => ({
-    // loaded: state.switchPage.tab == ownProps.tab,
     page: state.jandan.page,
     urls: state.jandan.urls,
     current: state.jandan.current,

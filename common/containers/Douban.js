@@ -9,9 +9,6 @@ const mapStateToProps = (state, ownProps) => ({
 })
 
 const mapDispatchToProps = (dispatch, ownProps) => ({
-    // getIndexData: () => {
-    //     dispatch(getThenShow(ownProps.pageIndex, ownProps.tab))
-    // }
     fetchData: () => dispatch(fetchDouban()),
     
     showNext: () => {

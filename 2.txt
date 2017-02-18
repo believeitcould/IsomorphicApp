@@ -1,7 +1,0 @@
-文件夹 PATH 列表
-卷序列号为 F427-2D04
-C:\USERS\ADMINISTRATOR\DESKTOP\SERVERSIDERENDER\CLIENT
-    index.js
-    
-没有子文件夹 
-
